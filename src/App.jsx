@@ -28,7 +28,7 @@ function App(props) {
               <GlobalStyle />
               <Logo />
               <Routes>
-                <Route path="/" element={<Home />}></Route>
+                <Route path="/Petgram" element={<Home />}></Route>
                 <Route path="/pet/:categoryId" element={<Home />}></Route>
                 <Route path="/search" element={<Detail />}>
                                     
