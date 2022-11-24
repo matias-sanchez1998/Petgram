@@ -5,6 +5,7 @@ import { PhotoCardDetailed } from "../components/photoCardDetail/PhotoCardDetail
 function Detail(props) {
     return (
         <Layout title={'detalle de mascota'}>
+            <a href="/">Back </a>
             <PhotoCardDetailed />
         </Layout>
     );
